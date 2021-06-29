@@ -20,7 +20,7 @@ Experiment II is based on Experiment I. In Experiment II, the influence of the n
 - Average actual cost per packet
 - Average optimal cost per packet
 
-## Repo Files Architecture
+## Repo Files Introduction
 
 - src: source codes
   - core.py: core codes
@@ -29,13 +29,38 @@ Experiment II is based on Experiment I. In Experiment II, the influence of the n
 - res: results of experiments
 - fig: figures of experiments
 
-## Code Interfaces
+## Modules Architecture
+
+Codes are in package `src` which includes three modules:
+
+```mermaid
+graph
+core-->exp1-->exp2
+core-->exp2
+```
+
+## Use Instruction
 
 The results and figures of the two experiments in the paper have been saved in dir “res” and “fig”.
 
 If you want to remake the figures, just run analyzeExp1Res() or analyzeExp2Res().
 
 Only when you practice the experiments with new parameters, exp1() / exp2() with your parameters are needed to run before analyzeExp1Res() / analyzeExp2Res().
+
+Use example:
+
+```python
+# clone repo and change dir to repo dir
+# import modules
+import src.exp1 as exp1
+import src.exp2 as exp2
+
+# Remake the figures
+exp1.analyzeExp1Res()
+exp2.analyzeExp2Res()
+```
+
+## Interfaces and Parameters
 
 ### Interfaces of exp1.py
 
