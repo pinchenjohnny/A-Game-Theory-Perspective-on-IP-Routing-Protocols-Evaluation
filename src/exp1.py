@@ -26,7 +26,7 @@ NONFEATURE_ALPHA = 0.7
 FEATURE_ALPHA = 1
 
 # 文件
-PATH = "E:\\Routing game\\code\\res"
+PATH = os.path.join(os.path.dirname(__file__), "..", "res")
 FILE_EXT = ".txt"
 EXP1_RES1_FNAME = os.path.join(PATH, "exp1-originalRes" + FILE_EXT)
 EXP1_RES2_FNAME = os.path.join(PATH, "exp1-improvedRes" + FILE_EXT)
@@ -34,7 +34,7 @@ EXP1_ANALYSIS_FNAME = os.path.join(PATH, "exp1-resAnalysis" + FILE_EXT)
 
 RES_NAMES = ["ineqPerCentages", "allPacketsAvgActualLatencies", "allPacketsAvgOptLatencies"]
 
-FIG_PATH = "E:\\Routing game\\code\\fig"
+FIG_PATH = os.path.join(os.path.dirname(__file__), "..", "fig")
 EXP1_FIG1_FNAME = os.path.join(FIG_PATH, "exp1-percentage")
 EXP1_FIG2_FNAME = os.path.join(FIG_PATH, "exp1-cost")
 
