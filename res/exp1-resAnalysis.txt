@@ -1,0 +1,13 @@
+------------------------------------------------------------------
+ineqPerCentages mean of all turns:  0.8400000000000003
+ineqPerCentages mean of all turns:  0.642
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+allPacketsAvgActualLatencies mean of all turns:  11.642500000000002
+allPacketsAvgOptLatencies mean of all turns:  4.508499999999999
+------------------------------------------------------------------
+allPacketsAvgActualLatenciesImproved mean of all turns:  7.4905
+allPacketsAvgOptLatenciesImproved mean of all turns:  4.226
+------------------------------------------------------------------
+

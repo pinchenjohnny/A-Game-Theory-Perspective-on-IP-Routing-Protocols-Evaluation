@@ -1,0 +1,17 @@
+------------------------------------------------------------------
+ineqPerCentagePerPackets mean of all nPackets:  0.8033235199713156
+improvedIneqPerCentagePerPackets mean of all nPackets:  0.7446442988566728
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+Fit function with maxpower 1 of actualLatenciesPerNPackets:   
+0.5106 x + 1.58
+Fit function with maxpower 1 of optLatenciesPerNPackets:   
+0.1719 x + 1.158
+------------------------------------------------------------------
+Fit function with maxpower 1 of actualLatenciesImprovedPerNPackets:   
+0.5413 x - 1.072
+Fit function with maxpower 1 of optLatenciesImprovedPerNPackets:   
+0.1731 x + 1.012
+------------------------------------------------------------------
+
